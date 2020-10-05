@@ -27,7 +27,7 @@ function checkUser() {
     }
 
     if (validated == true) {
-        window.location.href = "https://rizqul.github.io/"
+        window.location.href = "https://rizqul.github.io/home/index.html"
     } else{
         alert("incorect username or password")
     }
