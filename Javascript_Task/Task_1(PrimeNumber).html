@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>Prime Number</h2>
+        <script>
+            var n = parseInt(window.prompt("enter a limit"))
+            for (i = 0; i < n; i++) {
+                var count = 0
+               // console.log("for number : " + i)
+                for (j = 1; j <= i; j++) {
+                    if (i%j == 0){
+                        //console.log("mod check " + i + " and " + j)
+                        count++
+                    }
+                }
+                if(count == 2){
+                    console.log(i)
+                }
+                count = 0
+            }
+        </script>
+    </body>
+</html>
